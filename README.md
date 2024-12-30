@@ -1,7 +1,7 @@
 # FocusTime: Productivity Chrome Extension 🐒🚀
 
 ## Overview
-FocusTime is a playful and functional Chrome extension made to help users combat procrastination and improve productivity. Developed as a learning project, this extension offers multiple timing tools and motivational features to keep users focused and engaged.
+FocusTime is a <s>playful</s> and functional Chrome extension made to help users combat procrastination and improve productivity. Developed as a learning project, this extension offers multiple timing tools and motivational features to keep users focused and engaged.
 
 ## Features
 - **Pomodoro Timer**: Traditional time management technique.
@@ -40,7 +40,7 @@ FocusTime is a playful and functional Chrome extension made to help users combat
 ### Manual Installation 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/focustime.git
+    git clone https://github.com/flurry101/focustime.git
     ```
 2. Open Chrome and navigate to `chrome://extensions/`.
 3. Enable **Developer Mode** (top right toggle).
