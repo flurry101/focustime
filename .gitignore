@@ -1,0 +1,25 @@
+# Dependency directories
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.local
+
+# Chrome Extension specific
+*.crx
+*.pem
+
+# IDE specific
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db

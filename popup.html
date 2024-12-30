@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FocusTime</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>FocusTime</h1>
+        <img id="logo" src="assets/monkey.jpg" alt="FocusTime_logo" />
+        <p>Ready to tame your procrastination monkey? 🐒🐾
+            FocusTime is your trusty sidekick, helping you stay on track and crush your to-dos. Pick a timer and let’s
+            get to work!</p>
+        <div class="timer-section">
+            <h2>Pomodoro Timer</h2>
+            <button id="start-pomodoro">Start Pomodoro</button>
+            <button id="pause-pomodoro">Pause Pomodoro</button>
+            <button id="reset-pomodoro">Reset Pomodoro</button>
+            <div id="pomodoro-time">25:00</div>
+        </div>
+
+        <div class="timer-section">
+            <h2>Countdown Timer</h2>
+            <input type="number" id="countdown-input" placeholder="Time (min)" />
+            <button id="start-countdown">Start Countdown</button>
+            <button id="pause-countdown">Pause Countdown</button>
+            <button id="reset-countdown">Reset Countdown</button>
+            <div id="countdown-time">00:00</div>
+        </div>
+
+        <div class="timer-section">
+            <h2>Task Timer</h2>
+            <input type="text" id="task-name" placeholder="Task name" />
+            <button id="start-task">Start Task</button>
+            <button id="pause-task">Pause Task</button>
+            <button id="reset-task">Reset Task</button>
+            <div id="task-time">00:00</div>
+            <button id="show-tasks">Show Task History</button>
+            <button id="delete-tasks">Delete Task History</button>
+            <div id="task-history"></div>
+        </div>
+
+        <div class="timer-section">
+            <h2>Stopwatch</h2>
+            <button id="start-stopwatch">Start Stopwatch</button>
+            <button id="pause-stopwatch">Pause Stopwatch</button>
+            <button id="reset-stopwatch">Reset Stopwatch</button>
+            <div id="stopwatch-time">00:00</div>
+        </div>
+
+        <div class="timer-section">
+            <h2>Mood Tracker</h2>
+            <div id="mood-select">
+                <button id="energetic-mood">High Energy</button>
+                <button id="calm-mood">Peaceful Zen</button>
+                <button id="restful-mood">Deep Sleep</button>
+                <button id="focused-mood">Driven Focus</button>
+                <button id="mindful-mood">Meditative State</button>
+            </div>
+            <div id="mood-time">00:00</div>
+            <button id="pause-mood">Pause Mood</button>
+            <button id="reset-mood">Reset Mood</button>
+        </div>
+        <div id="tip-container">
+        </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>

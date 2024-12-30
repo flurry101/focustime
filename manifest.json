@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "FocusTime",
+    "version": "1.0",
+    "description": "Ready to tame your procrastination monkey? 🐒🐾FocusTime is your trusty sidekick, helping you stay on track and crush your to-dos. Pomodoro, task timer, stopwatch, mood tracker and more.",
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "assets/monkey.jpg",
+            "48": "assets/monkey.jpg",
+            "128": "assets/monkey.jpg"
+        }
+    },
+    "icons": {
+        "16": "assets/monkey.jpg",
+        "48": "assets/monkey.jpg",
+        "128": "assets/monkey.jpg"
+    },
+    "permissions": [
+        "storage"
+    ]
+}
