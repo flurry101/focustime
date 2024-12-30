@@ -30,20 +30,14 @@ FocusTime is a playful and functional Chrome extension made to help users combat
 ### Chrome Extension Development:
 - Manifest configuration, Browser action implementation, Permissions and storage
 
-
 ## Prerequisites
 - Google Chrome Browser
 - Basic understanding of web technologies
 - A sense of humor (optional but recommended)
 
-## Installation
+# Installation
 
-### Method 1: Chrome Web Store (Recommended)
-1. Open [Chrome Web Store](https://chrome.google.com/webstore).
-2. Search for "FocusTime".
-3. Click **"Add to Chrome"**.
-
-### Method 2: Manual Installation
+### Manual Installation 
 1. Clone the repository:
     ```bash
     git clone https://github.com/yourusername/focustime.git
