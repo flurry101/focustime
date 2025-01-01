@@ -216,8 +216,6 @@ const tips = [
     "Start with small tasks - even your procrastinating self can handle that",
     "Break work into pieces smaller than your attention span",
     "10 minutes of work beats 10 hours of staring dramatically at your screen",
-    "Your productivity is inversely proportional to your Netflix queue",
-    "Eliminate distractions faster than you ghost bad Tinder dates",
     "Reward yourself, because let's face it, no one else will",
     "You're not lazy, you're energy-efficient... right? 🤡",
     "Treat your to-do list like a roast battle with your own incompetence",
